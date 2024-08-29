@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { FaSearch, FaBell } from 'react-icons/fa';
-import { FaIconName } from 'react-icons/fa';
 import { BiCaretDown } from "react-icons/bi";
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';

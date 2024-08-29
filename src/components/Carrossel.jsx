@@ -6,6 +6,7 @@ import styled from "styled-components";
 import MovieModal from './MovieModal';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import 'swiper/swiper-bundle.css';
 
 const MoviesContainer = styled.div`
     margin: 10px;
