@@ -17,6 +17,7 @@ const Container = styled.div`
     background: linear-gradient(to bottom right, #090a0f, #1b1e27);
 `
 
+
 const Movie = styled.div`
     background-image: url(${props => `https://image.tmdb.org/t/p/w500${props.backPath}`});
     background-size: cover;
