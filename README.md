@@ -1,6 +1,6 @@
 # Clone da Netflix
 
-Este é um clone da interface da Netflix, desenvolvido como projeto pessoal para prática de front-end e integração com APIs. O projeto é alimentado pela [The Movie Database (TMDB)](https://www.themoviedb.org/), que fornece os dados dos filmes e séries exibidos.
+Este é um clone da interface da Netflix, desenvolvido como projeto do curso de desenvolvimento full-stack da +praTi para prática de front-end e integração com APIs. O projeto é alimentado pela [The Movie Database (TMDB)](https://www.themoviedb.org/), que fornece os dados dos filmes e séries exibidos.
 
 ## Funcionalidades
 
@@ -65,56 +65,6 @@ Use as seguintes credenciais para acessar o projeto:
 # Dependências
 
 O projeto utiliza as seguintes dependências principais:
-"axios": "^1.7.2",
-"react": "^18.3.1",
-"react-dom": "^18.3.1",
-"react-icons": "^5.3.0",
-"react-router-dom": "^6.26.1",
-"react-slick": "^0.30.2",
-"slick-carousel": "^1.8.1",
-"styled-components": "^6.1.12",
-"swiper": "^11.1.11"
-
-
-Memória atualizada
-Aqui está o README.md atualizado com as dependências utilizadas no projeto:
-
-markdown
-Copiar código
-# Clone da Netflix
-
-Este é um clone da interface da Netflix, desenvolvido como projeto pessoal para prática de front-end e integração com APIs. O projeto é alimentado pela [The Movie Database (TMDB)](https://www.themoviedb.org/), que fornece os dados dos filmes e séries exibidos.
-
-## Funcionalidades
-
-- Exibição de listas de filmes e séries populares, tendências, lançamentos e gêneros específicos.
-- Busca por filmes e séries.
-- Detalhes individuais de cada filme/série, incluindo sinopse, elenco, e avaliação.
-- Interface amigável e responsiva.
-- Autenticação simples com login pré-definido.
-
-## Tecnologias Utilizadas
-
-- **HTML/CSS/JavaScript**: Estrutura e estilização do projeto.
-- **React**: Biblioteca JavaScript para construção da interface.
-- **TMDB API**: API usada para obter os dados dos filmes e séries.
-- **Axios**: Cliente HTTP para fazer as requisições à API.
-- **React Router**: Para navegação entre as páginas da aplicação.
-- **Styled-components**: Para estilização baseada em componentes.
-- **Slick-carousel** e **React-slick**: Para sliders/carrosséis.
-- **Swiper**: Outro plugin de carrossel utilizado no projeto.
-- **React-icons**: Ícones para a interface.
-
-Login
-Use as seguintes credenciais para acessar o projeto:
-
-E-mail: teste@teste.com
-Senha: 123456
-Dependências
-O projeto utiliza as seguintes dependências principais:
-
-json
-Copiar código
 "axios": "^1.7.2",
 "react": "^18.3.1",
 "react-dom": "^18.3.1",
