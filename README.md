@@ -11,9 +11,9 @@ Este é um clone da interface da Netflix, desenvolvido como projeto do curso de 
 - Autenticação simples com login pré-definido.
 
   
-<img alt="Screenshot 1" src="https://i.ibb.co/rQDHWBh/Captura-de-tela-2024-08-29-221046.png">
-<img alt="Screenshot 1" src="https://i.ibb.co/rdwm0qB/Captura-de-tela-2024-08-29-221159.png">
-<img alt="Screenshot 1" src="https://i.ibb.co/pnsbpCx/Captura-de-tela-2024-08-29-221032.png">
+<a href="https://postimg.cc/rdcB3xy3" target="_blank"><img src="https://i.postimg.cc/8CrTFm2p/Captura-de-tela-2024-08-29-221032.png" alt="Captura-de-tela-2024-08-29-221032"/></a><br/><br/>
+<a href="https://postimg.cc/DSVkQR92" target="_blank"><img src="https://i.postimg.cc/htvDnBM7/Captura-de-tela-2024-08-29-221046.png" alt="Captura-de-tela-2024-08-29-221046"/></a><br/><br/>
+<a href="https://postimg.cc/vcxwVGSq" target="_blank"><img src="https://i.postimg.cc/FsDrwRb4/Captura-de-tela-2024-08-29-221159.png" alt="Captura-de-tela-2024-08-29-221159"/></a><br/><br/>
 
 
 ## Tecnologias Utilizadas
