@@ -25,7 +25,7 @@ const PopularMovie = styled.div`
     background-size: cover;
     background-position: center;
     height: 140px;
-    width: 250px;
+    width: 240px;
     position: relative;
     
     border-radius: 5px;
@@ -93,7 +93,7 @@ function Carrossel({ genreId }) {
     return (
         <>
             <MoviesContainer>
-                <Swiper modules={[Virtual]} spaceBetween={100} slidesPerView={5} virtual breakpoints={{
+                <Swiper modules={[Virtual]} spaceBetween={0} slidesPerView={5} virtual breakpoints={{
         768: {
             spaceBetween: 50, // Ajuste o espaço entre os slides para telas de 768px
             slidesPerView: 5, // Exibe 4 slides em telas de 768px

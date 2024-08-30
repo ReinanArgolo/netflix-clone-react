@@ -7,6 +7,7 @@ function LoginScreen({ setIsLogin }) {
 
     const [user, setUser] = useState('')
     const [password, setPassword] = useState('')
+    const [error, setError] = useState(false);
     const navigate = useNavigate();
 
     
@@ -24,7 +25,7 @@ function LoginScreen({ setIsLogin }) {
             setIsLogin(true)
             navigate('/home')
         } else {
-            console.log('erro')
+            setError(true);
         }
     }
     return (
@@ -38,16 +39,28 @@ function LoginScreen({ setIsLogin }) {
                 <div className={css.loginApp}>
         
                     <h1 >Entrar</h1>
-                
+          
                     <div className={css.loginContainer}>
                         <form onSubmit={handleSubmit}>
                             <div className={css.UserCredential}>
-                                <input className={css.UserCredentialInput} type="text" onChange={(e) => setUser(e.target.value)} placeholder='E-mail ou telefone' />
+                                <input 
+                                    className={`${css.UserCredentialInput} ${error ? css.error : ''}`}  
+                                    type="text" 
+                                    onChange={(e) => setUser(e.target.value)} 
+                                    placeholder='E-mail ou telefone' 
+                                    />
+                                    
                             </div>
 
                             <div className={css.UserCredential}>
-                                <input className={css.UserCredentialInput} type="password" onChange={(e) => setPassword(e.target.value)} placeholder='Senha'/>
+                                <input 
+                                className={`${css.UserCredentialInput} ${error ? css.errorInput : ''}`} 
+                                type="password" 
+                                onChange={(e) => setPassword(e.target.value)} 
+                                placeholder='Senha'
+                                />
                             </div>
+                            {error && <div className={css.errorMessage}>Login ou senha incorretos</div>}
                             
                             <button className={css.loginButton}>Entrar</button>
                         </form>
