@@ -7,6 +7,7 @@ const FooterContainer = styled.div`
     padding: 20px;
     bottom: 0;
    
+   
 
     @media (max-width: 768px) {
         width: 100%;
@@ -20,7 +21,10 @@ const Duvidas = styled.div`
 
 const Itens = styled.div`
     display: grid;
+    width: 80%;
     grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    justify-items: center; 
 `
 
 const Ul = styled.ul`
@@ -33,7 +37,14 @@ const Li = styled.li`
     display: block;
     margin: 0 10px;
     text-align: left;
-`   
+    padding: 5px 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+`
 
 export default function Footer() {
     return (
