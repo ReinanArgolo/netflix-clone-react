@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-icons', 'swiper', 'react-modal', 'styled-components'],
+      external: ['react-icons', 'swiper'],
     }
   },
   resolve: {
@@ -14,4 +14,4 @@ export default defineConfig({
       '@': '/src',
     },
   },
-})
+});
