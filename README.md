@@ -49,10 +49,10 @@ Siga os passos abaixo para rodar o projeto localmente:
 4. Execute o projeto
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-   O projeto estará disponível em `http://localhost:3000`.
+   O projeto estará disponível em `http://localhost:5000`.
 
 
 # LOGIN
@@ -104,33 +104,6 @@ Este é um clone da interface da Netflix, desenvolvido como projeto pessoal para
 - **Slick-carousel** e **React-slick**: Para sliders/carrosséis.
 - **Swiper**: Outro plugin de carrossel utilizado no projeto.
 - **React-icons**: Ícones para a interface.
-
-## Como Executar o Projeto
-
-Siga os passos abaixo para rodar o projeto localmente:
-
-1. **Clone o repositório**
-
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-Instale as dependências
-
-Certifique-se de ter o Node.js instalado em sua máquina. Em seguida, instale as dependências do projeto:
-
-bash
-Copiar código
-npm install
-Execute o projeto
-
-Após a instalação das dependências, execute o projeto com o seguinte comando:
-
-bash
-Copiar código
-npm run dev
-Acesse o projeto
-
-Abra seu navegador e acesse http://localhost:3000 para ver o clone da Netflix em ação.
 
 Login
 Use as seguintes credenciais para acessar o projeto:
