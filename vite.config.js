@@ -8,5 +8,10 @@ export default defineConfig({
     rollupOptions: {
       external: ['react-icons', 'swiper', 'react-modal', 'react-router-dom', 'styled-components'],
     }
-  }
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
 })
