@@ -10,6 +10,12 @@ Este é um clone da interface da Netflix, desenvolvido como projeto do curso de 
 - Interface amigável e responsiva.
 - Autenticação simples com login pré-definido.
 
+  
+<img alt="Screenshot 1" src="https://i.ibb.co/rQDHWBh/Captura-de-tela-2024-08-29-221046.png">
+<img alt="Screenshot 1" src="https://i.ibb.co/rdwm0qB/Captura-de-tela-2024-08-29-221159.png">
+<img alt="Screenshot 1" src="https://i.ibb.co/pnsbpCx/Captura-de-tela-2024-08-29-221032.png">
+
+
 ## Tecnologias Utilizadas
 
 - **HTML/CSS/JavaScript**: Estrutura e estilização do projeto.
