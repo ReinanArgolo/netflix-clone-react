@@ -65,7 +65,7 @@ Use as seguintes credenciais para acessar o projeto:
 # Dependências
 
 O projeto utiliza as seguintes dependências principais:
-"axios": "^1.7.2",
+``` "axios": "^1.7.2",
 "react": "^18.3.1",
 "react-dom": "^18.3.1",
 "react-icons": "^5.3.0",
@@ -74,6 +74,7 @@ O projeto utiliza as seguintes dependências principais:
 "slick-carousel": "^1.8.1",
 "styled-components": "^6.1.12",
 "swiper": "^11.1.11"
+```
 
 # Licença
 Este projeto é apenas para fins educacionais e não possui uma licença específica. 
