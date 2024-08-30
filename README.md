@@ -65,7 +65,8 @@ Use as seguintes credenciais para acessar o projeto:
 # Dependências
 
 O projeto utiliza as seguintes dependências principais:
-``` "axios": "^1.7.2",
+```
+"axios": "^1.7.2",
 "react": "^18.3.1",
 "react-dom": "^18.3.1",
 "react-icons": "^5.3.0",
